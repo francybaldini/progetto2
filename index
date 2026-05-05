@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Ateez</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, "/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+        <header>
+            <!--logo-->
+           <img class="logo" src="logo nero.png" alt="Logo ATEEZ">
+           
+           <button class="menu">&#9776</button>
+
+           <!--immagine-->
+           <!--Navbar-->
+           <nav class="navbar">
+               <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#gruppo">ATEEZ</a></li>
+                <li><a href="#album">DISCOGRAFIA</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#gioco">GIOCO</a></li>
+               </ul>
+           </nav> 
+        </header>
+
+
+        <main>
+            <section id="home">
+                <img class="membri" src="foto13copia.png" alt="ATEEZ">
+            </section>
+
+            <section id="gruppo"></section>
+            <section id="album"></section>
+            <section id="about"></section>
+            <section id="gioco"></section>
+        </main>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
